@@ -13,11 +13,13 @@
 }
 
 .loginMainContainer{
-  background-color: #fff;
+  background-image: url("./assets/img/musical_instrument1.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+ 
   height: 100svh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .loginForm{
