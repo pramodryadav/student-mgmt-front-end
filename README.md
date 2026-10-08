@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+# Student Management System — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend application for a student management system designed for a music coaching institute. The application provides an interface for managing student information and tracking fee payments.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The frontend is built with React and TypeScript and communicates with a Node.js/Express backend through REST APIs.
 
-### `npm start`
+**Backend:** https://github.com/pramodryadav/student-mgmt-backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- TypeScript
+- Material UI
+- Axios
+- Formik
+- Yup
+- React Router
+- Day.js
+- React Toastify
+- XLSX
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Student management interface
+- Fee/payment tracking
+- Form-based student and payment management
+- Client-side form validation
+- REST API integration
+- Application routing
+- Date handling
+- Toast notifications
+- Spreadsheet data handling
+- Responsive Material UI components
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```text
+student-mgmt-front-end/
+├── public/
+├── src/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js
+- npm
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+git clone https://github.com/pramodryadav/student-mgmt-front-end.git
+cd student-mgmt-front-end
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Install dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the development server:
+
+```bash
+npm start
+```
+
+The application will be available at:
+
+```text
+http://localhost:3000
+```
+
+### Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+The optimized production files will be generated in the `build` directory.
+
+## Backend
+
+This application requires the Student Management backend API.
+
+Backend repository:
+
+https://github.com/pramodryadav/student-mgmt-backend
+
+Make sure the backend is configured and running before using features that require API access.
+
+## License
+
+This project is for educational and portfolio purposes.
